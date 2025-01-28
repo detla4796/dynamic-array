@@ -1,0 +1,61 @@
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore build directories
+build/
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.aps
+*.pch
+*.ipch
+*.ncb
+*.opensdf
+*.sdf
+*.log
+*.tlog
+*.idb
+*.ilk
+*.pdb
+*.db
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore log files
+*.log
+
+# Ignore dependency files
+*.d
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore other generated files
+*.gcda
+*.gcno
